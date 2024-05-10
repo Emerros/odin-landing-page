@@ -16,9 +16,8 @@ header {
 
 .navigation-bar {
     display: flex;
-    /* flex-direction: row; */
-    /* color: red; */
     width: 85%;
+    padding: 5px;
 }
 
 .navigation-bar > h1,
@@ -33,7 +32,7 @@ header {
 }
 
 .header-link-box > li{
-    width: 33%;
+    flex: 1;
     text-align: center;
     align-content: center;
     list-style: none;    
@@ -55,7 +54,6 @@ header {
     align-content: center;
     align-self: center;
     background-color: grey;
-    padding: 10px;
 
 }
 
@@ -64,18 +62,15 @@ header {
 }
 
 .header-picture {
-    height: 500px;
-    width: 500px;
+    width: 100%;
     background-color: grey;
 }
 
 
 
-
-
-
 .text {
     background-color: inherit;
+    padding: 10px;
 }
 
 img {
@@ -83,4 +78,22 @@ img {
     height: 100%;
     text-align: center;
     align-self: center;
+}
+
+.additional-info-container {
+    background-color: deepskyblue;
+    width: 85%;
+}
+
+.additional-info {
+    display: flex;
+}
+
+.additional-info-boxes {
+background-color: darkred;
+flex: 1;
+}
+
+.additonal-info-boxes > img {
+    border-radius: 5px;
 }
