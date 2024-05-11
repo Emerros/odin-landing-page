@@ -25,7 +25,7 @@ header {
 .navigation-bar {
     display: flex;
     height: fit-content;
-    padding: 5px;
+    padding: 15px;
     
 }
 
@@ -34,7 +34,10 @@ header {
     width: 50%;
 
 }
-
+.navigation-bar > h1 {
+    font-size: 24px;
+    color: #f9faF8;
+}
 .header-link-box {
     display: flex;
     flex-direction: row;
@@ -47,12 +50,12 @@ header {
     list-style: none;    
 }
 
-
+/*  */
 
 .summary {
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 400px;
 }
 
 .summary-info {
@@ -67,9 +70,15 @@ header {
 
 }
 
+.text {
+    /* background-color: inherit; */
+    padding: 15px;
+}
 .summary-info > h2 {
     font-size: 48px;
 }
+
+
 
 .summary-info > img {
     width: 100%;
@@ -77,14 +86,17 @@ header {
     /* object-fit: cover ; */
 }
 
-
-
-.text {
-    background-color: inherit;
-    padding: 10px;
+.summary-info > p {
+    font-size: 18px;
 }
 
-
+.summary-info > .sign-up {
+    width: fit-content;
+    height: auto;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 main {
     display: flex;
@@ -97,7 +109,7 @@ main > div {
 }
 .additional-info-container {
     width: 1000px;
-    height: 500px;
+    height: 400px;
     align-content: center;
     
 }
@@ -121,5 +133,12 @@ main > div {
 .additional-info-boxes > img {
     border: 5px solid #3882f6;
     border-radius: 1rem;
+}
 
+
+
+
+
+footer {
+    background-color: #1f2939;
 }
