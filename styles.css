@@ -14,6 +14,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 600px;
     background-color: #1f2937;
     color: #F9FAF8;
     align-items: center;
@@ -34,10 +35,12 @@ header {
     width: 50%;
 
 }
+
 .navigation-bar > h1 {
     font-size: 24px;
     color: #f9faF8;
 }
+
 .header-link-box {
     display: flex;
     flex-direction: row;
@@ -48,6 +51,7 @@ header {
     text-align: center;
     align-content: center;
     list-style: none;    
+    font-size: 18px;
 }
 
 /*  */
@@ -55,7 +59,9 @@ header {
 .summary {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .summary-info {
@@ -78,8 +84,6 @@ header {
     font-size: 48px;
 }
 
-
-
 .summary-info > img {
     width: 100%;
     /* background-color: rgb(248, 6, 6); */
@@ -88,13 +92,14 @@ header {
 
 .summary-info > p {
     font-size: 18px;
+    margin: 20px 0;
 }
 
 .summary-info > .sign-up {
     width: fit-content;
     height: auto;
     background-color: #3882f6;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
@@ -109,9 +114,14 @@ main > div {
 }
 .additional-info-container {
     width: 1000px;
-    height: 400px;
+    height: 600px;
     align-content: center;
     
+}
+
+.additional-info-container > h3 {
+    text-align: center;
+    font-size: 36px;
 }
 
 .additional-info {
@@ -129,13 +139,37 @@ main > div {
     height: 100%;
     text-align: center;
     align-self: center;
-}
-.additional-info-boxes > img {
     border: 5px solid #3882f6;
     border-radius: 1rem;
 }
+.additional-info-boxes > p {
+    text-align: center;
+}
 
 
+.inspirational-quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #e5e7eb;
+
+}
+
+.inspirational-quote-container > p {
+    width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding: 50px;
+    color: #1f2937;
+}
+
+.call-to-action-container {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
 
 
 
