@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     /* border: 1px dotted red; */
 }
 
@@ -96,10 +97,8 @@ header {
 }
 
 .summary-info > .sign-up {
-    width: fit-content;
-    height: auto;
     background-color: #3882f6;
-    padding: 5px 20px;
+    border: none;
     border-radius: 5px;
 }
 
@@ -112,8 +111,8 @@ main {
 main > div {
     width: 1000px;
 }
+
 .additional-info-container {
-    width: 1000px;
     height: 500px;
     align-content: center;
     justify-content: center;
@@ -124,6 +123,7 @@ main > div {
     margin: 0px 0px 25px 0px;
     text-align: center;
     font-size: 36px;
+    font-weight: 800;
 }
 
 .additional-info {
@@ -161,21 +161,76 @@ main > div {
 }
 
 .inspirational-quote-container > p {
-    width: 1000px;
+    width: 900px;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    /* padding: 50px; */
     color: #1f2937;
 }
 
-.call-to-action-container {
-    background-color: red;
-    width: 100%;
-    height: 100px;
+.inspirational-quote-container > cite {
+    width: 850px;
+    padding: 0 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: right;
+    font-style: normal;
 }
 
 
+.call-to-action-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6 ;
+    color: #f9faF8;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+}
+
+.cta {
+    width: 80%;
+    text-align: left;
+}
+
+.cta-one {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-two {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
 footer {
+    width: 100%;
+    height: 100px;
     background-color: #1f2939;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
