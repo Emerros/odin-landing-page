@@ -120,10 +120,15 @@ main > div {
 }
 
 .additional-info-container > h3 {
+<<<<<<< HEAD
     margin: 0px 0px 25px 0px;
     text-align: center;
     font-size: 36px;
     font-weight: 800;
+=======
+    text-align: center;
+    font-size: 36px;
+>>>>>>> bb75fb0 (spelling correction)
 }
 
 .additional-info {
@@ -148,6 +153,7 @@ main > div {
 .additional-info-boxes > p {
     text-align: center;
 }
+<<<<<<< HEAD
 
 .inspirational-quote-container {
     display: flex;
@@ -195,6 +201,13 @@ main > div {
     align-items: center;
     justify-content: center;
     border-radius: .5rem;
+=======
+
+
+.inspirational-quote-container {
+    margin: 5px;
+    width: 1000px;
+>>>>>>> bb75fb0 (spelling correction)
 }
 
 .cta {
